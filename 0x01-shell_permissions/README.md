@@ -1,6 +1,6 @@
 This project is about learning Shell, permissions.
 
-Script Descrition
+Script Descriptions
 
 0-iam_betty - changes your user ID to betty.
 
