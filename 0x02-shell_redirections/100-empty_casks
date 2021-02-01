@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepth 1 -empty | cut -d " " -f 9
+find -mindepth 1 -empty | cut -d "/" -f 2
