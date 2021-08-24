@@ -15,7 +15,7 @@ frontend load_balancer
 backend servers
         mode http
         balance roundrobin
-        server web-01 35.227.45.0:80 check
-        server web-02 35.237.153.115:80 check" >> /etc/haproxy/haproxy.cfg
+        server 2830-web-01 34.73.0.81:80 check
+        server 2830-web-02 3.88.221.211:80 check" >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy start
