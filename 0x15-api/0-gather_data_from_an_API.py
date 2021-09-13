@@ -12,4 +12,4 @@ if __name__ == "__main__":
     completed = [t.get("title") for t in tasks if t.get("completed") is True]
     print("Employee {} is done with tasks({}/{}):".format(
         user.get("name"), len(completed), len(tasks)))
-    [print ("\t {}".format(c)) for c in completed]
+    [print("\t {}".format(c)) for c in completed]
