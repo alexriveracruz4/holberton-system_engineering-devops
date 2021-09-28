@@ -8,7 +8,7 @@ def top_ten(subreddit):
     10 hot posts listed for a given subreddit"""
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = {"User-Agent": "MyAPI/0.0.1"}
-    params = {"limit" : 10}
+    params = {"limit": 10}
     resp = requests.get(url, headers=headers, params=params,
                         allow_redirects=False)
     if resp.status_code == 404:
